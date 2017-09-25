@@ -1,0 +1,17 @@
+{
+    "name": "bidir",
+    "version": "0.0.1",
+    "description": "Bidirectional transformation library for Brian",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mmaroti/bidir-js.git"
+    },
+    "contributors": [
+        "Brian Broll",
+        "Miklos Maroti"
+    ],
+    "license": "MIT",
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
