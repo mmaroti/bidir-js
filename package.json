@@ -1,17 +1,21 @@
 {
-    "name": "bidir",
-    "version": "0.0.1",
-    "description": "Bidirectional transformation library for Brian",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:mmaroti/bidir-js.git"
-    },
-    "contributors": [
-        "Brian Broll",
-        "Miklos Maroti"
-    ],
-    "license": "MIT",
-    "scripts": {},
-    "dependencies": {},
-    "devDependencies": {}
+  "name": "bidir",
+  "version": "0.0.1",
+  "description": "Bidirectional transformation library for Brian",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mmaroti/bidir-js.git"
+  },
+  "contributors": [
+    "Brian Broll",
+    "Miklos Maroti"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build-ts": "node_modules/.bin/tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  }
 }
