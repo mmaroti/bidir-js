@@ -16,6 +16,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "tslint": "^5.8.0",
     "typescript": "^2.5.2"
   }
 }
