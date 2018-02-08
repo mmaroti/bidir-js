@@ -34,7 +34,8 @@ class Compose implements Link {
     link2: Link;
 
     constructor(link1: Link, link2: Link) {
-        assert(link1.getOutput() === link2.getInput());
+        // temporarily commented out as 'assert' isn't defined
+        //assert(link1.getOutput() === link2.getInput());
 
         this.link1 = link1;
         this.link2 = link2;

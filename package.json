@@ -12,9 +12,12 @@
   ],
   "license": "MIT",
   "scripts": {
+    "test": "node_modules/.bin/mocha test --recursive",
     "build-ts": "node_modules/.bin/tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^5.0.0"
+  },
   "devDependencies": {
     "tslint": "^5.8.0",
     "typescript": "^2.5.2"
